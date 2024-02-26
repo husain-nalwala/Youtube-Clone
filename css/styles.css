@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+}
+
+p {
+    font-family: Roboto, Arial;
+    
+}
+
+.thumbnail {
+    width: 100%;
+    
+    border-radius: 5px;
+}
+
+
+
+.vid-channel, .vid-stats {
+    font-size: 12px;
+    display: block;
+    font-style: normal;
+    font-weight:lighter;
+    color: rgb(96,96,96);
+
+}
+
+.vid-channel {
+    margin-bottom: 2px;
+    
+}
+
+/* div */
+.vid-preview {
+    
+    width: 100%;
+    margin-right:15px; 
+    
+    
+}
+
+.icon {
+    width: 80%;
+    border-radius: 50px;
+}
+
+
+
+
+
+.underthevid-grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 5px;
+}
+
+
+
+
+
+
+.vid-title {
+    margin-top: 0%;
+    margin-bottom: 12px;
+}
+
+
+
+.vid-stats {
+    margin-top: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 20px;
+
+}
